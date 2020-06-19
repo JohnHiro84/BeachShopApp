@@ -1,0 +1,106 @@
+
+/* header group */
+.header-group {
+  color: floralwhite;
+  float:right;
+  display:block;
+  width:100%;
+  /* margin-bottom: 3em; */
+  padding: 5px;
+  background-color: cornflowerblue;
+  position: sticky;
+  top: 0;
+  z-index: 3;
+  border-bottom: 1px solid royalblue;
+}
+
+
+.header-logout-button {
+
+    display: inline-block;
+    padding: .8em;
+    margin: .5em;
+    border-radius: 5px;
+    display: inline-block;
+    /* border: 1px solid lightslategray; */
+    border: 0;
+    font-weight: 700;
+    color: white;
+    cursor: pointer;
+    background-color: darkgray;
+
+
+}
+
+.header-logout-button:hover {
+  background-color: gray;
+}
+
+.header-name {
+  color: whitesmoke;
+  font-size: 18px;
+}
+.header-name, .header-link {
+  display: inline-block;
+  margin: .5em;
+  padding-left: .1em;
+  padding-right: .1em;
+}
+
+.avatar-img {
+    margin: 0 8px;
+    height: 50px;
+    width: 50px;
+    border-radius: 25px;
+    padding: 0;
+}
+
+#header-icon {
+  background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 25px;
+    height: 20px;
+    display: inline-block;
+    vertical-align: center;
+    margin-left: .5em;
+}
+
+
+.header-left {
+  display: inline-block;
+  float:left;
+  text-decoration: none;
+  /* color:white; */
+  /* padding: 0 5px; */
+}
+
+.header-left > h2 {
+  margin: 12px;
+  margin-left: 20px;
+  color:floralwhite;
+  display: inline-block;
+}
+.header-right {
+  float:right;
+}
+.header-right > a {
+  color:white;
+  text-decoration: none;
+  font-weight: 700;
+}
+.header-right > a:hover {
+  color:royalblue;
+}
+
+#header-right-landing{
+  margin: 8px;
+}
+
+hgroup {
+  margin: 0;
+}
+
+body, html, .app-container, .login-form-container, #root {
+  height: 100%;
+}

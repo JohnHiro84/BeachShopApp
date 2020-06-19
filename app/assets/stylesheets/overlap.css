@@ -1,0 +1,23 @@
+.container {
+  max-width: 600px;
+  clear: both;
+  margin: auto;
+  border-radius: 10px;
+  padding: 1em;
+
+}
+
+.button {
+  color: white;
+  cursor: pointer;
+  border-radius: 12px;
+  margin:1em 0;
+  text-decoration: none;
+  font-weight: 700;
+}
+
+/* //////////////////////////////////////////cart.css */
+
+/* /////////////////////////////////////product-detail.css */
+
+/* /////////////////////////////////reviews.css */

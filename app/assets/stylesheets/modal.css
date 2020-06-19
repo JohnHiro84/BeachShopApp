@@ -1,0 +1,37 @@
+#modal-message {
+      position: fixed;
+      top: 0;
+      right: 0;
+      height: calc((100% - 12em));
+      width: calc((100% - 4em));
+      background-color: steelblue;
+      color: white;
+      text-align: center;
+      border-radius: 3em;
+      padding-top: 8em;
+      margin: 2em;
+      z-index: 4;
+
+}
+
+.modal-link {
+  background-color: darkgray;
+  padding: 1em;
+  border-radius: 1em;
+  text-decoration: none;
+  color: white;
+  margin: 1em;
+  display: inline-block;
+}
+
+#modal-message a:hover {
+  background-color: dimgray;
+}
+
+.modal-message-show {
+  display: block;
+}
+
+.modal-message-hide {
+  display: none;
+}

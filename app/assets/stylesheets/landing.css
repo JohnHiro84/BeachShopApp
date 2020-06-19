@@ -1,0 +1,77 @@
+
+.login-signup {
+  margin: auto;
+  max-width: 200px;
+  margin-top: 5em;
+  padding: 1em 8em;
+  border-radius: 10px 10px 0 0;
+  background-color: lightsteelblue;
+}
+
+.login-signup > a > h1 {
+  font-size: 36px;
+}
+.login-form-container {
+  margin: auto;
+  /* max-width: 200px; */
+  padding: 0em 8em 3em 8em;
+  border-radius: 0px 0px 10px 10px;
+  background-color: lightsteelblue;
+  background-position:center;
+	background-repeat:no-repeat;
+	background-size:cover;
+  text-align: center;
+}
+
+
+.login-form > label {
+  display: block;
+}
+
+.login-input {
+  padding: 1em 0em;
+  margin: 0em 0em 2em 0;
+  border-radius: 8px;
+  border: 1px solid lightgray;
+  text-align: center;
+  color: dimgray;
+  width: 450px;
+}
+.session-submit {
+  padding: 1em 15em;
+  /* margin: .5em; */
+  border-radius: 7px;
+  border: 2px solid darkblue;
+  font-weight: 700;
+  color: white;
+  background-color: darkblue;
+  cursor: pointer;
+  width: 450px;
+
+}
+.session-submit:hover {
+  background-color: royalblue;
+  border: 2px solid royalblue;
+
+
+}
+
+.login-form-box {
+  position: absolute;
+  left: calc(50% - 230px);
+  top: calc(50% - 160px);
+  height: 320px;
+}
+
+#landing-tag-line {
+  font-size: 36px;
+  font-weight: 700;
+  color: darkblue;
+}
+
+#landing-sub-tag-line {
+  display: block;
+  margin: 1em;
+  font-weight: 700;
+  font-size: 18px;
+}

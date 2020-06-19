@@ -1,0 +1,28 @@
+.order-item-bold-heading {
+  font-weight: 700;
+}
+
+.orders {
+  text-align: center;
+  /* color: darkslategray; */
+}
+.order-list {
+  padding-left: 0em;
+}
+.order-list li {
+  list-style-type: none;
+  border-top: 1px solid gainsboro;
+  margin: 2em;
+}
+
+.order-small-price {
+  font-style: italic;
+  color: gray;
+  font-size: 12px;
+  margin-left: 1em;
+}
+
+.order-status {
+  font-weight: 700;
+  color: gray;
+}

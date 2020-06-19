@@ -1,0 +1,53 @@
+.cart-detail-container {
+    display: block;
+}
+
+
+.cart-list {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.cart-item-small-img {
+  max-width: 100px;
+}
+
+.small-buttons {
+  width: 40px;
+}
+
+
+.cart-buttons {
+ background-color: gray;
+ padding: 10px;
+ font-size: 14px;
+ margin:.5em 1em .5em 0;
+ border: 0;
+
+ color: white;
+ cursor: pointer;
+ border-radius: 12px;
+ text-decoration: none;
+ font-weight: 700;
+}
+
+.cart-buttons:hover {
+  background-color: dimgray;
+}
+
+ .cart-buttons-checkout {
+  background-color: forestgreen;
+  padding: 24px;
+}
+
+.cart-button-delete:hover {
+  background-color: indianred;
+}
+
+.cart-button-delete {
+  background-color: darkred;
+}
+
+.cart-buttons-checkout:hover {
+  background-color: green;
+}

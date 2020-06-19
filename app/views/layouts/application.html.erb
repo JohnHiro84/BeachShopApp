@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Beach Shop</title>
+    <%= csrf_meta_tags %>
+    <meta name='viewport' content="width=device-width, initial-scale = 1" >
+
+    <%= stylesheet_link_tag    'application', media: 'all' %>
+    <%= javascript_include_tag 'application' %>
+    <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.4.1.min.js"></script>
+
+    <% if current_user %>
+    <script>
+        window.currentUser = {
+          "id": <%= current_user.id %>,
+          "username": "<%= current_user.username %>",
+          "email": "<%= current_user.email %>",
+          "description": "<%= current_user.description %>",
+          "avatar_url": (' <%= asset_path(current_user.avatar_url) %>'),
+          "image_two": "<%= current_user.image_two %>",
+
+
+        };
+        window.screen.availHeight
+        //
+      </script>
+      <% end %>
+      <style media="screen">
+        #header-icon {
+          background-image: url(' <%= asset_path("faviconBlue.png") %>');
+
+        }
+
+        .login-form-container {
+          background-image: url(' <%= asset_path("beach-calm-clouds.jpg") %>');
+
+        }
+        #slide-image-1 {
+          background-image: url(' <%= asset_path("jumping.jpg") %>');
+        }
+        #slide-image-2 {
+          background-image: url(' <%= asset_path("man-with-floater.jpg") %>');
+        }
+        #slide-image-3 {
+          background-image: url(' <%= asset_path("woman-white-sand-beach.jpg") %>');
+        }
+        #slide-image-4 {
+          background-image: url(' <%= asset_path("beer.jpg") %>');
+        }
+        #slide-image-5 {
+          background-image: url(' <%= asset_path("volleyball-players.jpg") %>');
+        }
+
+      </style>
+  </head>
+
+  <body>
+
+    <%= yield %>
+  </body>
+</html>

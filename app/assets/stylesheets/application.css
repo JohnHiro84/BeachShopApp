@@ -1,0 +1,156 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
+ * or any plugin's vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any other CSS/SCSS
+ * files in this directory. Styles in this file should be added after the last require_* statement.
+ * It is generally better to create a new file per style scope.
+ *
+ *= require_tree .
+ *= require_self
+ */
+
+
+body {
+  /* background-image: url('../images/oatmeal.jpeg'); */
+  /* color: black; */
+  color: rgb(15,15,15);
+
+}
+html {
+
+ }
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+
+/* landing page */
+
+/* recipe index */
+ .recipe-small-img {
+   max-width: 250px;
+   max-height: 250px;
+ }
+
+.recipe-index-item >a > h4 {
+  text-decoration: none;
+}
+
+.recipe-index-item {
+  min-width: 400px;
+}
+
+.recipe-detail > img{
+  max-width: 500px;
+  max-height: 500px;
+}
+
+.recipe-form > input {
+  display: block;
+  margin: .5em;
+  padding: .5em;
+}
+
+.recipe-form > button {
+  margin: .5em;
+  padding: .5em;
+}
+
+.deleteRecipe {
+  margin: .5em;
+  padding: .5em;
+}
+.recipe-form > label {
+  margin: .5em;
+  padding: .5em;
+}
+
+.ingredient-delete-button, .direction-delete-button {
+  margin-left: 1em;
+  background-color: red;
+  color: white;
+  font-size: 14px;
+  font-weight: 700;
+  border: 1px solid red;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.recipe-detail {
+  margin: auto;
+  max-width: 700px;
+  /* margin-top: 8em; */
+}
+
+.recipe-detail > h1 {
+  font-size: 34px;
+  margin: 0;
+}
+
+.direction-header, .ingredient-header {
+  list-style-type: none;
+}
+
+/* comment */
+.comment-text-area {
+  width: 300px;
+  height: 80px;
+}
+
+.comment-button-form, .comment-text-area {
+  display: block;
+  margin: 1em 0;
+  padding: .5em;
+}
+
+
+.comments-ul {
+  padding-left: 0;
+}
+.comments-ul > li {
+  list-style-type: none;
+}
+
+.comments-ul > li > p {
+  font-weight: 700;
+}
+.comments-ul > li > h5 {
+  color: gray;
+  font-weight: 700;
+}
+
+
+/* tags */
+.recipe-tags {
+  padding-left: 0;
+}
+.recipe-tags >li {
+  display: inline-block;
+  margin: .5em;
+  background-color: gray;
+  padding: 8px 10px;
+  border-radius: 10px;
+  color: white;
+  font-weight:  700;
+}
+
+/* index  */
+.recipe-list{
+  list-style-type: none;
+  margin-top: 0;
+  margin-left: 100px;
+
+}
+
+.recipe-list > li > a {
+  /* text-decoration: none; */
+}
+
+/* </style> */

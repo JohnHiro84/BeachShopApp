@@ -1,0 +1,12 @@
+recent edits
+
+
+6/2/2020
+put fetchProducts in all components that use it in an if else statement
+to reduce database calls.
+
+main.jsx
+scout.jsx
+
+
+	this.props.fetchProducts()
