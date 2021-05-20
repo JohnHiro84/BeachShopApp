@@ -22,7 +22,7 @@ gem 'coffee-rails', '~> 4.2'
 # See https://github.com/rails/execjs#readme for more supported runtimes
 # gem 'therubyracer', platforms: :ruby
 
-gem 'nokogiri', '1.6.8'
+gem 'nokogiri', '1.9.1'
 
 gem 'i18n', '0.7.0'
 
