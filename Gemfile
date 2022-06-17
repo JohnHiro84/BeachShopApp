@@ -24,7 +24,7 @@ gem 'coffee-rails', '~> 4.2'
 
 gem 'nokogiri', '1.6.8'
 
-gem 'i18n', '0.7.0'
+gem 'i18n', '0.8.0'
 
 
 # Use jquery as the JavaScript library
